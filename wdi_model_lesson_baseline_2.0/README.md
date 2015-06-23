@@ -26,7 +26,17 @@ topics: javascript, objects
 
 - Work through the [solutions](solutions) directory to ensure you have the source code and solutions ready for this lesson's code alongs.
 
-## Lesson Notes
+#### Lesson Flow
+Section | Timing
+------- | ------
+[Objects Intro](#objects-are-a-tool-for-thought) | 3 mins
+[What is an Object](#what is-an-object) | 3 mins
+[Real-world Scenario](#breaking-down-a-real-world-scenario) | 5 mins
+etc. |
+
+
+
+## Lesson
 
 #### Objects Are A Tool for Thought
 ###### Intro – 3 mins
