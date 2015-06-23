@@ -1,6 +1,13 @@
-![General Assembly Logo](http://i.imgur.com/ke8USTq.png)
+---
+course: WDI
+type: lesson
+duration-in-hours: 1.25
+author: Gerry Mathe
+author-city: LDN
+topics: javascript, objects
+---
 
-# JavaScript Objects (Lesson)
+# JavaScript Objects
 
 ## Objectives
 
@@ -8,22 +15,21 @@
 - Write a constructor for a JavaScript object.
 - Write a prototype method for a JavaScript object.
 
---
+## Lesson Guide
 
-#### Student Pre-work
+#### Student Preparation
 
 - Download the [starter_code](starter_code) files to be ready to code along and work on the You Do examples.
 - [Read up](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) on MDN documentation on JavaScript objects.
 
-#### Instructor Pre-work
+#### Instructor Preparation
 
 - Work through the [solutions](solutions) directory to ensure you have the source code and solutions ready for this lesson's code alongs.
 
---
-
-## Introduction - 10 min
+## Lesson Notes
 
 #### Objects Are A Tool for Thought
+###### Intro – 3 mins
 
 We create our own objects to organize our thoughts and our code. Objects are a tool for us.  The computer doesn't care.
 
@@ -32,6 +38,7 @@ We represent large, complicated systems with lots of things to keep track of as 
 We share our code more easily and use other people's code more easily by writing code in terms of objects.  Much as writing our own objects lets us break up a problem into smaller parts, when we use other people's object libraries that lets us apply their solution to a problem when it is better than ours.
 
 #### What is an Object?
+###### Intro – 3 mins
 
 This is one of those questions that's impossible to answer.  Ask a dozen working programmers and computer scientists, and you can easily get a dozen answers, all of them right.
 
@@ -39,9 +46,8 @@ For the purposes of this exercise, an object is a thing, represented by a set of
 
 (The term "object" is also used for a JavaScript data structure that other languages call an "associative array" or "dictionary" or "hash." This is correct too.  We're building computer-science-objects from JavaScript-objects.)
 
-## I Do - 5 min
-
 #### Breaking Down a Real-World Scenario
+###### I do - 5 min
 
 So now we're going to consider a couple of real-world scenarios, like this one:
 
@@ -52,7 +58,8 @@ We start by identifying the nouns and noun phrases: some are going to be objects
 
 And when we consider the verbs in the scenario, we will find that some of them are associated with particular nouns, and those are excellent candidates for methods.  Also consider verbs implicit in the scenario.
 
-## You Do - 15 min
+#### Object Modeling
+###### You do (group – 15 min)
 
 With a parter or small group, consider one or two of the following scenarios.  Identify likely objects, attributes, and methods in each scenario.  Remember to consider implicit objects as well as explicit ones.
 
@@ -70,9 +77,8 @@ With a parter or small group, consider one or two of the following scenarios.  I
 
 - A user searches for her reservation on a hotel website, and changes the arrival date and room type.
 
-## We Do - 10 min
-
-#### Coding an Object
+#### Coding an Object ####
+###### We do – 10 min ######
 
 By convention, the way to create an object is with a function called a *constructor*.  This is really a Javascript function like any other, but when you call it in a particular way Javascript does some magic under the hood for you.
 
@@ -99,13 +105,13 @@ undefined
 >
 ```
 
-## You do - 10 min
+#### Constructor Practice
+###### You do - 10 min
 
-Work through the problem in starter_code/exercise-2.js.
-
-## I Do - 10 min
+Work through the problem in [starter_code/exercise-2.js]().
 
 #### Adding Methods to our Madness
+###### I do - 5 min
 
 Remember that our computer-science definition of objects requires them to have both attributes and methods.  So this is how we add methods:
 
@@ -126,6 +132,7 @@ Whoa.  Where did `prototype` come from?
 Every object in Javascript has a prototype, connected to the constructor that created it.  If `foo` is an object, and you ask Javascript to invoke the method `foo.doSomething()`, Javascript looks first to see if the object has a property called doSomething that contains a function.  If it does, Javascript invokes that function.  If not, Javascript looks for the prototype object on its constructor and sees if that object has an appropriate method.
 
 #### Useful Idea: Restricting Access to Attributes
+###### I do – 5 min
 
 Much of the time, attributes can only reasonably contain certain values.  For instance, an attribute containing a person's age in years should never contain a negative number, and will rarely contain a number over 100.  By convention, all changes to attributes are done by *accessor functions*, like this:
 
@@ -149,11 +156,13 @@ Person.prototype.age = function () {
 };
 ```
 
-## You Do - 15 min
+#### More Constructor Practice
+###### You do - 15 min
 
 Work through the problems in starter_code/exercise-3.js.
 
-## Conclusion - 5 min
+#### Conclusion
+###### 5 min
 
 - Review answers to starter_code/exercise-3.js
 - Ask students to explain how prototypes relate to constructors
