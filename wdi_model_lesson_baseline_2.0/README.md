@@ -1,38 +1,29 @@
 ![General Assembly Logo](http://i.imgur.com/ke8USTq.png)
 
-# Lesson: JavaScript Objects 
+# JavaScript Objects (Lesson)
 
 ## Objectives
 
-- Identify likely objects, attributes, and methods in real-world scenarios.
+- Identify likely objects, attributes, and methods in real-world scenarios
 - Write a constructor for a JavaScript object.
 - Write a prototype method for a JavaScript object.
 
-<br>
+--
 
----
+#### Student Pre-work
 
-## Description
+- Download the [starter_code](starter_code) files to be ready to code along and work on the You Do examples.
+- [Read up](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) on MDN documentation on JavaScript objects.
 
-One of the most useful and powerful approaches for breaking down larger problems into smaller, simpler problems involves considering the world and our code model of it in terms of a collection of objects interacting with each other.  If we consider everything in terms of objects, we have a powerful tool for organizing our code and our thoughts.  This lesson introduces objects and practices breaking down real-world scenarios into attributes and functions using constructors and prototypes. 
+#### Instructor Pre-work
 
-##Student Pre-work 
+- Work through the [solutions](solutions) directory to ensure you have the source code and solutions ready for this lesson's code alongs.
 
- - Download the [starter_code](starter_code) files to be ready to code along and work on the You Do examples. 
- - [Read up](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) on MDN documentation on JavaScript objects.
-
-##Instructor Pre-work
-
-- Work through the [solutions](solutions) directory to ensure you have the source code and solutions ready for this lesson's code alongs. 
-
-<br>
-
----
-
+--
 
 ## Introduction - 10 min
 
-####Objects Are A Tool for Thought
+#### Objects Are A Tool for Thought
 
 We create our own objects to organize our thoughts and our code. Objects are a tool for us.  The computer doesn't care.
 
@@ -54,7 +45,7 @@ For the purposes of this exercise, an object is a thing, represented by a set of
 
 So now we're going to consider a couple of real-world scenarios, like this one:
 
-> A user, browsing on a shopping website, searches for size 12 sneakers, 
+> A user, browsing on a shopping website, searches for size 12 sneakers,
 > and examines several pairs before purchasing one.
 
 We start by identifying the nouns and noun phrases: some are going to be objects.  There are also implicit nouns here: even though it's not mentioned, there's likely to be a shopping cart object.
@@ -99,13 +90,13 @@ var Person = function (firstName, lastName, age) {
 var joe = new Person('Joe', 'Donnelly', 34);
 ```
 
-When trying things like this out, remember that if the only argument you pass to node's `console.log()` function is an object, node will display the whole object nicely for you:   
+When trying things like this out, remember that if the only argument you pass to node's `console.log()` function is an object, node will display the whole object nicely for you:
 
 ```
 > console.log(joe);
 { firstName: 'Joe', lastName: 'Donnelly', age: 34 }
 undefined
-> 
+>
 ```
 
 ## You do - 10 min
@@ -114,7 +105,7 @@ Work through the problem in starter_code/exercise-2.js.
 
 ## I Do - 10 min
 
-####Adding Methods to our Madness
+#### Adding Methods to our Madness
 
 Remember that our computer-science definition of objects requires them to have both attributes and methods.  So this is how we add methods:
 
@@ -158,12 +149,11 @@ Person.prototype.age = function () {
 };
 ```
 
-
 ## You Do - 15 min
 
 Work through the problems in starter_code/exercise-3.js.
 
 ## Conclusion - 5 min
 
-- Review answers to starter_code/exercise-3.js 
+- Review answers to starter_code/exercise-3.js
 - Ask students to explain how prototypes relate to constructors
