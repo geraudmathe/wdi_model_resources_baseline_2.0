@@ -8,16 +8,6 @@
 
 A new NY Tech Startup, Relaxr, has approached you to help them develop a new landing page for their company. They've handed you the [design file](starter_code/design_file) for the site, along with the copy and assets. You need to take these files and turn it into a landing page.
 
-###Deliverable
-
-![Relaxr Landing Page](starter_code/images/relaxr_landing.jpg)
-
-
-<br>
-
----
-
-
 ###Requirements 
 
 - Use HTML5 structural elements (nav, header, footer)
@@ -31,7 +21,16 @@ A new NY Tech Startup, Relaxr, has approached you to help them develop a new lan
 
 <br>
 
+
+###Deliverable
+
+![Relaxr Landing Page](starter_code/images/relaxr_landing.jpg)
+
+
+<br>
+
 ---
+
 
 ###Resources
 
