@@ -4,7 +4,7 @@ type: exercise
 duration-in-hours: 1.25
 author: Micah Rich
 author-city: la
-topics: css, box model
+competencies: css, box model
 ---
 
 # CSS Styling

@@ -4,7 +4,7 @@ type: lesson
 duration-in-hours: 1.25
 author: Gerry Mathe
 author-city: LDN
-topics: javascript, objects
+competencies: javascript, objects
 ---
 
 # JavaScript Objects
