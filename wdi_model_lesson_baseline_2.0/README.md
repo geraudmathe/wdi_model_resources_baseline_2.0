@@ -150,7 +150,7 @@ Please follow the instructions at INTRO QUIZ
 
 ### Closure Students
 
-....
+....a
 
 ### Additional Resources
 

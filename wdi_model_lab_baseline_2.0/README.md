@@ -1,14 +1,21 @@
-![General Assembly Logo](http://i.imgur.com/ke8USTq.png)
+---
+course: WDI
+type: exercise
+duration-in-hours: 1.25
+author: Micah Rich
+author-city: la
+competencies: css, box model
+---
 
-# Lab: CSS Styling
+# CSS Styling
 
-
-###Description 
-
+## Introduction
 
 A new NY Tech Startup, Relaxr, has approached you to help them develop a new landing page for their company. They've handed you the [design file](starter_code/design_file) for the site, along with the copy and assets. You need to take these files and turn it into a landing page.
 
-###Requirements 
+## Exercise
+
+#### Requirements
 
 - Use HTML5 structural elements (nav, header, footer)
 - Use a CSS Reset file in addition to your style.css file to style the page
@@ -18,27 +25,18 @@ A new NY Tech Startup, Relaxr, has approached you to help them develop a new lan
 - Indent nested elements to increase your code's readability
 - Use float/clear or the width property to create more than one column on your page
 
+#### Starter code
 
-<br>
+Starter code can be found inside of the [starter_code](starter_code) folder for this assignment.
 
-
-###Deliverable
+#### Deliverable
 
 ![Relaxr Landing Page](starter_code/images/relaxr_landing.jpg)
 
+## Additional Resources
 
-<br>
-
----
-
-
-###Resources
-
-- Starter code can be found inside of the "starter_code" folder for this assignment. 
 - [Box Model explanation from Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/box_model)
 - [Box Model Breakdown](http://learn.shayhowe.com/html-css/opening-the-box-model/)
 - [CSS Tricks difference between IDs and Classes](https://css-tricks.com/the-difference-between-id-and-class/)
 - [What is a CSS Reset?](http://www.cssreset.com/what-is-a-css-reset/)
 - Relaxr's [design file](starter_code/design_file)
-
-
