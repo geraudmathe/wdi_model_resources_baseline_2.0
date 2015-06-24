@@ -1,42 +1,31 @@
 ---
 course: WDI
-type: exercise
+type: Lab
 duration-in-hours: 1.25
-author: Micah Rich
-author-city: la
-competencies: css, box model
+author: Gerry
+author-city: London
+competencies: Javascript, functions
 ---
 
 # CSS Styling
 
 ## Introduction
 
-A new NY Tech Startup, Relaxr, has approached you to help them develop a new landing page for their company. They've handed you the [design file](starter_code/design_file) for the site, along with the copy and assets. You need to take these files and turn it into a landing page.
+You guys are now are now pro-efficient in making calculators, let's take the one we worked on yesterday and make it more DRY by using functions
 
 ## Exercise
 
-#### Requirements
+#### Instructions
 
-- Use HTML5 structural elements (nav, header, footer)
-- Use a CSS Reset file in addition to your style.css file to style the page
-- Use IDs and Classes to to select and style elements on the page
-- Style your text with the Google Fonts provided by your style guide
-- Follow naming conventions, maintain consistency across .html and .css files and use best practices for naming IDs and Classes
-- Indent nested elements to increase your code's readability
-- Use float/clear or the width property to create more than one column on your page
+- With your partner, take 5 minutes to review these exercises, and make a list of things you don't understand that we still need to review to get the exercises completed, and we'll go over them.
 
-#### Starter code
+- Define a function maxOfTwoNumbers that takes two numbers as arguments and returns the largest of them. Use the if-then-else construct available in Javascript. You'll have to remember your pre-work, or do some googling to figure this out.
+- Define a function maxOfThree that takes three numbers as arguments and returns the largest of them.
+- Write a function that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise.
+- Define a function sumArray and a function multiplyArray that sums and multiplies (respectively) all the numbers in an array of numbers. For example, sumArray([1,2,3,4]) should return 10, and multiplyArray([1,2,3,4]) should return 24.
 
-Starter code can be found inside of the [starter_code](starter_code) folder for this assignment.
 
-#### Deliverable
 
-![Relaxr Landing Page](starter_code/images/relaxr_landing.jpg)
-
-## Additional Resources
-
-- [Box Model explanation from Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/box_model)
-- [Box Model Breakdown](http://learn.shayhowe.com/html-css/opening-the-box-model/)
-- [CSS Tricks difference between IDs and Classes](https://css-tricks.com/the-difference-between-id-and-class/)
-- [What is a CSS Reset?](http://www.cssreset.com/what-is-a-css-reset/)
-- Relaxr's [design file](starter_code/design_file)
+- Write Javascript in a separate file than html
+- use alert and prompt for user IO
+- Do not use any validation, this will be covered in a latter lesson
