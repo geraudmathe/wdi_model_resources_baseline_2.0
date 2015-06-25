@@ -7,7 +7,9 @@ author-city: London
 competencies: Javascript, functions
 ---
 
-# CSS Styling
+![General Assembly Logo](http://i.imgur.com/ke8USTq.png)
+
+# Javascript Functions Lab (Calculator)
 
 ## Introduction
 
@@ -17,15 +19,56 @@ You guys are now are now pro-efficient in making calculators, let's take the one
 
 #### Instructions
 
-- With your partner, take 5 minutes to review these exercises, and make a list of things you don't understand that we still need to review to get the exercises completed, and we'll go over them.
+Create a calculator that takes input from the browser. The calculator should display the results using alert. 
 
-- Define a function maxOfTwoNumbers that takes two numbers as arguments and returns the largest of them. Use the if-then-else construct available in Javascript. You'll have to remember your pre-work, or do some googling to figure this out.
-- Define a function maxOfThree that takes three numbers as arguments and returns the largest of them.
-- Write a function that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise.
-- Define a function sumArray and a function multiplyArray that sums and multiplies (respectively) all the numbers in an array of numbers. For example, sumArray([1,2,3,4]) should return 10, and multiplyArray([1,2,3,4]) should return 24.
+The calculator should do the basic arithmetic operations.
+
+### Basic Calculator
+
+1. Must be able to +, -, / and *
+2. Must take user input using prompt
+3. Must be able display the result using alert
+4. Should use a loop!
+5. Should handle floats
+
+### Advanced Calculator
+ 
+Implement the advanced calculator:
+
+7. Functionality for 'power'
+8. Functionality for 'square root'
+
+<br> 
+
+## Bonus Tasks
+
+Add these additional settings to the calculator.
+
+### Mortgage Calculator:
+
+Calculate the monthly payment when given the other variables as input.
+you need `principal`, `yearly interest rate` and the `number of payments`. 
+
+- [Morgage Link 1](http://www.wikihow.com/Calculate-Mortgage-Payments)
+- [Morgage Link 2](http://www.wikihow.com/Sample/Mortgage-Payment)
+
+**Example:** £100,000.00 for-  30 years (360 months) at 6% will yield a payment of just less than £600.00 (£599.55 to be exact`
+
+### BMI Calculator:
+
+Calculate the BMI when given the height and weight - the user should be able to choose between the imperial and the metric system
+
+- [BMI Link 1](http://en.wikipedia.org/wiki/Body_mass_index)
+- [BMI Link 1](http://www.wikihow.com/Image:BMI.jpg)
+
+### Trip Calculator:
+
+This feature asks the user for four inputs; distance, fuel efficiency (mpg), cost per gallon, speed and it will give you the time and price of your journey.
+
+**Example output:** "Your trip will take 3.5 hours and cost £255.33.""
+
+**Note:** For every 1 MPH over 60 MPH, reduce the the MPG by 2 MPG (i.e. a car that normally gets 30 mpg would only get 28 mpg if its speed were 61 mph. Yes this gets silly at high speed where mpg goes to zero or gets negative - how will you handle this?)
 
 
+<br>
 
-- Write Javascript in a separate file than html
-- use alert and prompt for user IO
-- Do not use any validation, this will be covered in a latter lesson

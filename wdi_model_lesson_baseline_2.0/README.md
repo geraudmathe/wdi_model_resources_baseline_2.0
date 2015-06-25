@@ -270,7 +270,7 @@ f2() === undefined;
 When a function is called as a method of an object, its `this` is set to the object the method is called on.
 
 ```
-var bob = {name: "Bob"}
+var bob = {name: "Bob"  }
 bob.speak = function() {
   return this.name;
 }
